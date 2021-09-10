@@ -169,3 +169,55 @@ header .container .quote-box h3 span {
     font-weight: 200;
     line-height: 1.3;
 }
+
+.accomplishments {
+    height: 100vh;
+    width: 100%;
+    background: #111;
+    position: relative;
+}
+
+.accomplishments h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.accomplishments .line {
+    position: absolute;
+    top: 100px;
+    height: 150px;
+    width: 100%;
+    background: url("../img/kobe-arms.jpeg") center/cover  no-repeat;
+    z-index: 2;
+}
+
+.accomplishments .list {
+    margin-top: 200px;
+    width: 100%;
+    height: 400px;
+}
+
+.accomplishments .list .left {
+    float: left;
+}
+
+.accomplishments .list .left h5 {
+    color: white ;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.accomplishments .list .right {
+    float: right;
+}
+
+.accomplishments .list .right h5 {
+    color: white ;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    text-align: center;
+}
